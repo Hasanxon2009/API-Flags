@@ -1,0 +1,54 @@
+@import url(https://fonts.googleapis.com/css2?family=Laila:wght@100;200;300;400;500;600;700&display=swap);
+
+body {
+  font-family: "Laila", serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1400px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.box {
+  margin: 0 auto;
+  width: 290px;
+  height: 180px;
+}
+.main-card {
+  max-width: 1300px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  gap: 16px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.card {
+  max-width: 290px;
+  width: 100%;
+  height: 399px;
+  cursor: pointer;
+  background-color: rgba(204, 255, 238, 0.514);
+  transition: all 0.5s;
+}
+.card:hover {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  max-width: 305px;
+  width: 100%;
+}
+a {
+  text-decoration: none;
+  transition: all 0.2s;
+}
+a:hover {
+  color: red;
+}
